@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="features",
 		glue={"stepDefinitions"},
-		plugin={"html:target/cucumber-html-report","rerun:target/rerun.txt"},
+		plugin={"html:target/cucumber-html-report","json:target/cucumber.json","rerun:target/rerun.txt"},
 		tags={"@login"})
 public class TestRunner {
 
