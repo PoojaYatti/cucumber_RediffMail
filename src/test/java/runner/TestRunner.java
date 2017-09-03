@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="classpath:resources/Login.feature",
+		features="features",
 		glue={"stepDefinitions"},
 		plugin={"html:target/cucumber-html-report","rerun:target/rerun.txt"},
 		tags={"@login"})
