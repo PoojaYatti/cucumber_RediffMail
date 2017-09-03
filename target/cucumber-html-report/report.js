@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("resources/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
 formatter.feature({
   "line": 1,
   "name": "Logging in Rediffmail",
@@ -192,7 +192,7 @@ formatter.match({
   "location": "Login.runmode_is(String)"
 });
 formatter.result({
-  "duration": 241355332,
+  "duration": 1386622043,
   "status": "passed"
 });
 formatter.match({
@@ -209,7 +209,7 @@ formatter.match({
   "location": "Login.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 16309296003,
+  "duration": 39844289759,
   "status": "passed"
 });
 formatter.match({
@@ -222,7 +222,7 @@ formatter.match({
   "location": "Login.i_click_on_on_homepage(String)"
 });
 formatter.result({
-  "duration": 7668052544,
+  "duration": 9859984032,
   "status": "passed"
 });
 formatter.match({
@@ -239,7 +239,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 222391525,
+  "duration": 623851924,
   "status": "passed"
 });
 formatter.match({
@@ -256,7 +256,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 172118876,
+  "duration": 153349621,
   "status": "passed"
 });
 formatter.match({
@@ -269,7 +269,7 @@ formatter.match({
   "location": "Login.i_uncheck_remember_me(String)"
 });
 formatter.result({
-  "duration": 191331149,
+  "duration": 115847413,
   "status": "passed"
 });
 formatter.match({
@@ -282,7 +282,7 @@ formatter.match({
   "location": "Login.i_click_on(String)"
 });
 formatter.result({
-  "duration": 6359986897,
+  "duration": 5368857097,
   "status": "passed"
 });
 formatter.match({
@@ -295,8 +295,8 @@ formatter.match({
   "location": "Login.the_login_should_be(String)"
 });
 formatter.result({
-  "duration": 5104250905,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[success]\u003e but was:\u003c[failure]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.Login.the_login_should_be(Login.java:84)\r\n\tat ✽.Then The login should be \"success\"(resources/Login.feature:16)\r\n",
+  "duration": 5173897276,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[success]\u003e but was:\u003c[failure]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.Login.the_login_should_be(Login.java:84)\r\n\tat ✽.Then The login should be \"success\"(Login.feature:16)\r\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -378,7 +378,7 @@ formatter.match({
   "location": "Login.runmode_is(String)"
 });
 formatter.result({
-  "duration": 92800,
+  "duration": 158229,
   "status": "passed"
 });
 formatter.match({
@@ -395,7 +395,7 @@ formatter.match({
   "location": "Login.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 2011034708,
+  "duration": 1251367941,
   "status": "passed"
 });
 formatter.match({
@@ -408,7 +408,7 @@ formatter.match({
   "location": "Login.i_click_on_on_homepage(String)"
 });
 formatter.result({
-  "duration": 6942006518,
+  "duration": 6208785696,
   "status": "passed"
 });
 formatter.match({
@@ -425,7 +425,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 137893018,
+  "duration": 138616274,
   "status": "passed"
 });
 formatter.match({
@@ -442,7 +442,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 133056272,
+  "duration": 142769169,
   "status": "passed"
 });
 formatter.match({
@@ -455,7 +455,7 @@ formatter.match({
   "location": "Login.i_uncheck_remember_me(String)"
 });
 formatter.result({
-  "duration": 162540750,
+  "duration": 158424954,
   "status": "passed"
 });
 formatter.match({
@@ -468,7 +468,7 @@ formatter.match({
   "location": "Login.i_click_on(String)"
 });
 formatter.result({
-  "duration": 5213239341,
+  "duration": 4909360328,
   "status": "passed"
 });
 formatter.match({
@@ -481,7 +481,7 @@ formatter.match({
   "location": "Login.the_login_should_be(String)"
 });
 formatter.result({
-  "duration": 5032753879,
+  "duration": 5069662230,
   "status": "passed"
 });
 formatter.scenario({
@@ -563,8 +563,8 @@ formatter.match({
   "location": "Login.runmode_is(String)"
 });
 formatter.result({
-  "duration": 3774458,
-  "error_message": "cucumber.api.PendingException: Skipping the test as runmode is N\r\n\tat stepDefinitions.Login.runmode_is(Login.java:23)\r\n\tat ✽.Given Runmode is \"N\"(resources/Login.feature:9)\r\n",
+  "duration": 3536226,
+  "error_message": "cucumber.api.PendingException: Skipping the test as runmode is N\r\n\tat stepDefinitions.Login.runmode_is(Login.java:23)\r\n\tat ✽.Given Runmode is \"N\"(Login.feature:9)\r\n",
   "status": "pending"
 });
 formatter.match({
