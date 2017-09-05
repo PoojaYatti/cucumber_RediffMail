@@ -22,9 +22,9 @@ Feature: Verifying Left Hand Side Mailbox links in rediffmail
     Examples: 
       | browser | MailBoxElement | VerificationObject |
       | Chrome  | WriteMail      | NewMail_Vobject    |
-      | Chrome  | Inbox          | Inbox_Vobject      |
-      | Chrome  | Bulk           | Bulk_Vobject       |
-      | Chrome  | Junk           | Junk_Vobject       |
-      | Chrome  | Sent           | Sent_Vobject        |
-      | Chrome  | Trash          | Trash_Vobject       |
-      | Chrome  | Drafts         | Drafts_Vobject      |
+      #| Chrome  | Inbox          | Inbox_Vobject      |
+      #| Chrome  | Bulk           | Bulk_Vobject       |
+      #| Chrome  | Junk           | Junk_Vobject       |
+      #| Chrome  | Sent           | Sent_Vobject        |
+      #| Chrome  | Trash          | Trash_Vobject       |
+      #| Chrome  | Drafts         | Drafts_Vobject      |
