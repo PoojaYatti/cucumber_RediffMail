@@ -17,5 +17,6 @@ Feature: Logging in Rediffmail
 
     Examples: 
       | Runmode | browser | username   | password  | expectedResult |
-      | Y       | Chrome  | nisha.tok | nisha@123 | success        |
+      | Y       | Chrome  | nisha.toki | nisha@123 | success        |
+      | Y       | Chrome  | nisha.tok  | nisha@123 | fail        |
       
