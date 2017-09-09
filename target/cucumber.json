@@ -1,0 +1,200 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "logging-in-rediffmail;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 720697851,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Runmode is \"Y\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Y",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.runmode_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13478642888,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I go to \"LoginURL\" on \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LoginURL",
+                  "offset": 9
+                },
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.i_go_to_on(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7917911903,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on \"SignIn_xpath\" on homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SignIn_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.i_click_on_on_homepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194724292,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"Email_xpath\" as \"nisha.tok\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email_xpath",
+                  "offset": 9
+                },
+                {
+                  "val": "nisha.tok",
+                  "offset": 26
+                }
+              ],
+              "location": "Login.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150246880,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"Pass_xpath\" as \"nisha@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pass_xpath",
+                  "offset": 9
+                },
+                {
+                  "val": "nisha@123",
+                  "offset": 25
+                }
+              ],
+              "location": "Login.i_enter_as(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119263011,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I uncheck remember me \"remembercheck_xpath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "remembercheck_xpath",
+                  "offset": 23
+                }
+              ],
+              "location": "Login.i_uncheck_remember_me(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2758914940,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on \"GoBtn_xpath\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GoBtn_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.i_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5158313156,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[success]\u003e but was:\u003c[failure]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.Login.the_login_should_be(Login.java:96)\r\n\tat ✽.Then The login should be \"success\"(Login.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "The login should be \"success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 21
+                }
+              ],
+              "location": "Login.the_login_should_be(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Logging in Rediffmail",
+    "description": "\r\nIn order to test mail\r\nAs a user\r\nI want to login",
+    "id": "logging-in-rediffmail",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

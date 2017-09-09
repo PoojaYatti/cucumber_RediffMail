@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features="features",
 		glue={"stepDefinitions"},
 		plugin={"html:target/cucumber-html-report","json:target/cucumber.json","rerun:target/rerun.txt"},
-		tags={"@MailMenus"})
+		tags={"@login"})
 public class TestRunner {
 
 }

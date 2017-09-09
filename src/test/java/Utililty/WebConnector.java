@@ -1,5 +1,6 @@
 package Utililty;
 
+
 import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -8,6 +9,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 //import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -141,7 +143,12 @@ Logger logger =Logger.getLogger("WebConnector");
   public void log(String msg){
 	  logger.info(msg);
   }
+  
+  
+	
+  
 }
+
 	
 	
 
