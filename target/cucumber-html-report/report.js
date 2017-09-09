@@ -81,7 +81,7 @@ formatter.examples({
       "cells": [
         "Y",
         "Chrome",
-        "nisha.tok",
+        "nisha.toki",
         "nisha@123",
         "success"
       ],
@@ -128,7 +128,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "I enter \"Email_xpath\" as \"nisha.tok\"",
+  "name": "I enter \"Email_xpath\" as \"nisha.toki\"",
   "matchedColumns": [
     2
   ],
@@ -170,7 +170,7 @@ formatter.match({
   "location": "Login.runmode_is(String)"
 });
 formatter.result({
-  "duration": 720697851,
+  "duration": 554854690,
   "status": "passed"
 });
 formatter.match({
@@ -187,7 +187,7 @@ formatter.match({
   "location": "Login.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 13478642888,
+  "duration": 15111456317,
   "status": "passed"
 });
 formatter.match({
@@ -200,7 +200,7 @@ formatter.match({
   "location": "Login.i_click_on_on_homepage(String)"
 });
 formatter.result({
-  "duration": 7917911903,
+  "duration": 7550065473,
   "status": "passed"
 });
 formatter.match({
@@ -210,14 +210,14 @@ formatter.match({
       "offset": 9
     },
     {
-      "val": "nisha.tok",
+      "val": "nisha.toki",
       "offset": 26
     }
   ],
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 194724292,
+  "duration": 240810938,
   "status": "passed"
 });
 formatter.match({
@@ -234,7 +234,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 150246880,
+  "duration": 151468668,
   "status": "passed"
 });
 formatter.match({
@@ -247,7 +247,7 @@ formatter.match({
   "location": "Login.i_uncheck_remember_me(String)"
 });
 formatter.result({
-  "duration": 119263011,
+  "duration": 117540877,
   "status": "passed"
 });
 formatter.match({
@@ -260,7 +260,7 @@ formatter.match({
   "location": "Login.i_click_on(String)"
 });
 formatter.result({
-  "duration": 2758914940,
+  "duration": 7427821336,
   "status": "passed"
 });
 formatter.match({
@@ -273,8 +273,7 @@ formatter.match({
   "location": "Login.the_login_should_be(String)"
 });
 formatter.result({
-  "duration": 5158313156,
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[success]\u003e but was:\u003c[failure]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.Login.the_login_should_be(Login.java:96)\r\n\tat ✽.Then The login should be \"success\"(Login.feature:16)\r\n",
-  "status": "failed"
+  "duration": 4470411114,
+  "status": "passed"
 });
 });

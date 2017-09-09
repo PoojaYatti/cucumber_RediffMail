@@ -173,3 +173,10 @@
 2017-09-09 19:28:45,428 [main] INFO WebConnector - Unchecking remember me checkbox 
 2017-09-09 19:28:45,549 [main] INFO WebConnector - Clicking on GoBtn_xpath
 2017-09-09 19:28:48,309 [main] INFO WebConnector - Login should be success
+2017-09-09 19:49:29,922 [main] INFO WebConnector - Opening LoginURLonChrome
+2017-09-09 19:49:45,034 [main] INFO WebConnector - Clicking on 
+2017-09-09 19:49:52,588 [main] INFO WebConnector - Entering nisha.tokiin Email_xpath
+2017-09-09 19:49:52,830 [main] INFO WebConnector - Entering nisha@123in Pass_xpath
+2017-09-09 19:49:52,983 [main] INFO WebConnector - Unchecking remember me checkbox 
+2017-09-09 19:49:53,102 [main] INFO WebConnector - Clicking on GoBtn_xpath
+2017-09-09 19:50:00,531 [main] INFO WebConnector - Login should be success
