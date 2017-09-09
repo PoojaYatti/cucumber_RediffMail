@@ -170,7 +170,7 @@ formatter.match({
   "location": "Login.runmode_is(String)"
 });
 formatter.result({
-  "duration": 554854690,
+  "duration": 2196156908,
   "status": "passed"
 });
 formatter.match({
@@ -187,7 +187,7 @@ formatter.match({
   "location": "Login.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 15111456317,
+  "duration": 29684620707,
   "status": "passed"
 });
 formatter.match({
@@ -200,7 +200,7 @@ formatter.match({
   "location": "Login.i_click_on_on_homepage(String)"
 });
 formatter.result({
-  "duration": 7550065473,
+  "duration": 9275163810,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +217,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 240810938,
+  "duration": 668100709,
   "status": "passed"
 });
 formatter.match({
@@ -234,7 +234,7 @@ formatter.match({
   "location": "Login.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 151468668,
+  "duration": 168288018,
   "status": "passed"
 });
 formatter.match({
@@ -247,7 +247,7 @@ formatter.match({
   "location": "Login.i_uncheck_remember_me(String)"
 });
 formatter.result({
-  "duration": 117540877,
+  "duration": 115462086,
   "status": "passed"
 });
 formatter.match({
@@ -260,7 +260,7 @@ formatter.match({
   "location": "Login.i_click_on(String)"
 });
 formatter.result({
-  "duration": 7427821336,
+  "duration": 6221540316,
   "status": "passed"
 });
 formatter.match({
@@ -273,7 +273,7 @@ formatter.match({
   "location": "Login.the_login_should_be(String)"
 });
 formatter.result({
-  "duration": 4470411114,
+  "duration": 8631053662,
   "status": "passed"
 });
 });
